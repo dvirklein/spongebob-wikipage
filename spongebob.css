@@ -29,7 +29,7 @@ body {
   background-color: seagreen;
   list-style: none;
 }
-.pages-nav-bars li {
+.pages-nav-bars ul {
   border: black solid 0.7px;
   background-color: teal;
   margin: 0 auto;
@@ -58,4 +58,9 @@ main-charcetrs {
 #tribute {
   position: relative;
   bottom: 10px;
+}
+.products{
+  display:flex ;
+  margin: 20%;
+  padding-bottom: 10px;
 }
