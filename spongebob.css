@@ -64,3 +64,9 @@ body {
   width: 15vh;
   height: auto;
 }
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+}
