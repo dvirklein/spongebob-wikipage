@@ -47,6 +47,8 @@ body {
 
 .headlines {
   text-align: center;
+  margin-top: 5em;
+  margin-bottom: 2em;
 }
 #tribute {
   position: relative;
@@ -54,6 +56,9 @@ body {
 }
 .main-pargraph {
   text-align: justify;
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 2em;
 }
 .shop-images {
   width: 25vh;
@@ -69,4 +74,19 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 80vw;
+}
+#listed-mems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.best-images {
+  height: 20vh;
+  width: auto;
+  display: inline;
+}
+.youtubelinks {
+  display: inline;
+  justify-content: space-between;
+  flex-direction: row;
 }
