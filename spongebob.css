@@ -16,7 +16,13 @@ body {
   list-style: none;
   font-size: 15px;
   text-transform: uppercase;
-  background-color: yellowgreen;
+  background-color: var(--main-green);
+}
+:root {
+  --main-white: #f0f0f0;
+  --main-green: #4cbe00;
+  --main-blue: #8babf5;
+  --main-gray: #747474;
 }
 .pages-nav-bars {
   width: 40vw;
@@ -86,7 +92,9 @@ body {
   display: inline;
 }
 .youtubelinks {
-  display: inline;
+  display: block;
   justify-content: space-between;
   flex-direction: row;
+}
+.you-links {
 }
