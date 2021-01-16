@@ -1,5 +1,7 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+  margin: 0 auto;ir 
 }
 body {
   background-image: url(spongebob-sky.jpg);
@@ -21,23 +23,25 @@ body {
   position: fixed;
   float: left;
   display: flex;
+  justify-content: space-between;
   padding: 15px;
   top: 0;
   background-color: seagreen;
   list-style: none;
-  white-space: normal;
 }
 .pages-nav-bars li {
   border: black solid 0.7px;
   background-color: teal;
+  margin: 0 auto;
 }
-.main-charcetrs {
+main-charcetrs {
   border: yellowgreen 1px;
 }
 .main-pictures {
   border: yellowgreen solid 0.5px;
   position: relative;
   left: 50%;
+  bottom: 15%;
   width: 100;
 }
 #charcetrs-info blockquote {
@@ -50,4 +54,8 @@ body {
 .headlines {
   position: relative;
   left: 40%;
+}
+#tribute {
+  position: relative;
+  bottom: 10px;
 }
